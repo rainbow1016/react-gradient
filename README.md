@@ -2,7 +2,7 @@
 
 A lightweight Gradient Button library for React Native.
 
-![Examples](./Examples.png =250x)
+<img src="./Examples.png" alt="Examples" width="250">
 
 ## Installation
 
