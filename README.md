@@ -2,6 +2,8 @@
 
 A lightweight Gradient Button library for React Native.
 
+![Examples](./Examples.png "Examples")
+
 ## Installation
 
 ```
@@ -34,7 +36,7 @@ npm install --save react-native-gradient-button
     - default: `'Heavy'`
     - options: `Heavy`, `Medium`, `Light`
 
-  Design+Code Specifc Gradient Props
+  **Design+Code Specifc Gradient Props**
   - purpleViolet
   - violetPink
   - pinkDarkGreen
