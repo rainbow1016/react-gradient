@@ -1,6 +1,6 @@
 # React Native Gradient Buttons
 
-A lightweight Gradient Button library for React Native.
+A lightweight, customizable and haptic Gradient Button library for React Native.
 
 <img src="./Examples.png" alt="Examples" width="250">
 
