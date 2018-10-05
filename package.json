@@ -17,15 +17,15 @@
   "files": [
     "index.js"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Native gradient buttons for your next project",
   "main": "index.js",
   "author": "Thomas Wang <iothomaswang@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
+    "expo": ">= 27.x",
     "react": ">= 16.x",
-    "react-native": ">= 0.55.x",
-    "expo": ">= 27.x"
+    "react-native": ">= 0.55.x"
   },
   "devDependencies": {
     "babel-preset-react-native": "^4.0.1"
