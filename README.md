@@ -7,9 +7,9 @@ A lightweight Gradient Button library for React Native.
 ## Installation
 
 ```
-yarn add react-native-gradient-button
+yarn add react-native-gradient-buttons
 # or
-npm install --save react-native-gradient-button
+npm install --save react-native-gradient-buttons
 ```
 
 ## Props
