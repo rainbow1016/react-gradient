@@ -4,6 +4,9 @@ A lightweight, customizable and haptic Gradient Button library for React Native.
 
 <img src="./Examples.png" alt="Examples" width="250">
 
+## Requirements
+Requires React, React Native, and Expo installed.
+
 ## Installation
 
 ```
