@@ -1,4 +1,4 @@
-# React Native Gradient Button
+# React Native Gradient Buttons
 
 A lightweight Gradient Button library for React Native.
 
