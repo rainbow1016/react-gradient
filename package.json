@@ -1,0 +1,25 @@
+{
+  "name": "react-native-gradient-button",
+  "keywords": [
+    "react-native",
+    "gradient",
+    "button",
+    "buttons",
+    "gradient-button",
+    "gradient-buttons"
+  ],
+  "homepage": "https://github.com/thomaswangio/react-native-gradient-button",
+  "bugs": "https://github.com/thomaswangio/react-native-gradient-button/issues",
+  "repository": {
+    "url": "https://github.com/thomaswangio/react-native-gradient-button",
+    "type": "git"
+  },  
+  "files":[
+    "index.js"
+  ],
+  "version": "1.0.0",
+  "description": "React Native gradient buttons for your next project",
+  "main": "index.js",
+  "author": "Thomas Wang <iothomaswang@gmail.com>",
+  "license": "MIT"
+}
