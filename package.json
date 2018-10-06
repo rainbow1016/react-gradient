@@ -14,13 +14,10 @@
     "url": "https://github.com/thomaswangio/react-native-gradient-buttons",
     "type": "git"
   },
-  "files": [
-    "index.js"
-  ],
   "version": "1.1.2",
   "description": "React Native gradient buttons for your next project",
-  "main": "index",
-  "typings": "index",
+  "main": "./src/index",
+  "typings": "./src/index",
   "author": "Thomas Wang <iothomaswang@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
