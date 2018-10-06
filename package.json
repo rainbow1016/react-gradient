@@ -19,8 +19,8 @@
   ],
   "version": "1.1.1",
   "description": "React Native gradient buttons for your next project",
-  "main": "main",
-  "typings": "main",
+  "main": "index",
+  "typings": "index",
   "author": "Thomas Wang <iothomaswang@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
