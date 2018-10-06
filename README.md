@@ -17,7 +17,10 @@ npm install --save react-native-gradient-buttons
 
 ## Usage
 
-`import GradientButton from 'react-native-gradient-buttons'`
+```
+# ES6 import
+import GradientButton from 'react-native-gradient-buttons'
+```
 
 ## Props
   - `text`: `String`
