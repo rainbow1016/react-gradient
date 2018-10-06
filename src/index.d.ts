@@ -1,6 +1,6 @@
 // Type definitions for react-native-gradient-buttons
 // Project: React Native Gradient Buttons
-// Definitions by: Thomas Wang <[thomaswang.io]>
+// Definitions by: Thomas Wang <thomaswang.io>
 
 /*~ You can declare types that are available via importing the module */
 export interface Props {
