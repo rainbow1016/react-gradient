@@ -29,6 +29,10 @@
     "react-native": ">= 0.55.x"
   },
   "devDependencies": {
-    "babel-preset-react-native": "^4.0.1"
+    "babel-preset-react-native": "^4.0.1",
+    "typescript": "^3.1.1"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
