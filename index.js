@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   },
 });
 
-class GradientButton extends React.PureComponent {
+class GradientButton extends React.PureComponent { 
   render() {
     const {
       text,
@@ -37,6 +37,7 @@ class GradientButton extends React.PureComponent {
       blueViolet,
       blueMarine,
       deepBlue,
+      onPressAction,
     } = this.props;
 
     const purpleVioletColor = ['#7B42F6', '#B01EFF'];
@@ -65,13 +66,11 @@ class GradientButton extends React.PureComponent {
       <TouchableOpacity
         style={[styles.button, {height, width}]}
         onPress={() => {
-          if (Platform.OS === 'ios') {
-            if (impact === true) {
-              console.log(`Button pressed with impact: ${impactStyle}`);
-              Haptic.impact(Haptic.ImpactStyles[impactStyle]);
-            } else {
-              console.log('Button pressed without impact!');
-            }
+          if (Platform.OS === 'ios' && impact === true) {
+            Haptic.impact(Haptic.ImpactStyles[impactStyle]);
+          }
+          if (onPressAction) {
+            return onPressAction();
           }
         }}
       >

@@ -5,7 +5,7 @@ A lightweight, customizable and haptic Gradient Button library for React Native.
 <img src="./Examples.png" alt="Examples" width="250">
 
 ## Requirements
-Requires React, React Native, and Expo installed.
+Requires React, React Native, and Expo.
 
 ## Installation
 
@@ -19,12 +19,13 @@ npm install --save react-native-gradient-buttons
 
 ```
 # ES6 import
-import GradientButton from 'react-native-gradient-buttons'
+import GradientButton from 'react-native-gradient-buttons';
 ```
 
 ## Props
   - `text`: `String`
     - No default
+    - options: any string
   - `gradientBegin`: `String` 
     - default: `'#00d2ff'`
     - options: Any hex, rgb, or color    
@@ -33,18 +34,25 @@ import GradientButton from 'react-native-gradient-buttons'
     - options: Any hex, rgb, or color
   - `gradientDirection`: `String`
     - default: `'horizontal'`
-    - options: `horizontal`, `vertical`, `diagonal`
+    - options: `'horizontal'`, `'vertical'`, `'diagonal'`
   - `height`: `Number` or `String` (for %)
     - default: `75`
+    - options: any number
   - `width`: `Number` or `String` (for %)
     - No default
+    - options: any number
   - `radius`: `Number`
     - default: `50`
+    - options: any number
   - `impact`: `Boolean`
     - default: `false`
+    - options: `true` or `false`
   - `impactStyle`: `String`
     - default: `'Heavy'`
-    - options: `Heavy`, `Medium`, `Light`
+    - options: `'Heavy'`, `'Medium'`, `'Light'`
+  - `onPressAction`: `Function`
+    - No default
+    - options: any function you want to pass to the Gradient Button
 
   **Design+Code Specifc Gradient Props**
   - purpleViolet
@@ -68,6 +76,7 @@ import GradientButton from 'react-native-gradient-buttons'
       radius={15}
       impact
       impactStyle='Light'
+      onPressAction={() => alert('You pressed me!')}
     />
 
     <GradientButton text="Purple Violet" width='90%' purpleViolet impact />
