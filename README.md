@@ -111,3 +111,6 @@ import GradientButton from 'react-native-gradient-buttons';
     <GradientButton text="Deep Blue" width='90%' deepBlue impact />
   </View>
 ```
+
+For this component in action, see my example project: [React Native Auth Screens](https://github.com/thomaswangio/auth-screens).
+]
