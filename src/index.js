@@ -23,6 +23,7 @@ class GradientButton extends React.PureComponent {
   render() {
     const {
       text,
+      textStyle,
       gradientBegin,
       gradientEnd,
       gradientDirection,
@@ -96,7 +97,7 @@ class GradientButton extends React.PureComponent {
             horizontalGradient.end            
           }
         >
-          <Text style={styles.text}>{text}</Text>
+          <Text style={[styles.text, textStyle]}>{text}</Text>
         </LinearGradient>
       </TouchableOpacity> 
     );

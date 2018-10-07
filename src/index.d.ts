@@ -2,11 +2,13 @@
 // Project: React Native Gradient Buttons
 // Definitions by: Thomas Wang <thomaswang.io>
 
-import { ViewStyle } from 'react-native';
+import { TextStyle, ViewStyle } from 'react-native';
 
 /*~ You can declare types that are available via importing the module */
 export interface Props {
+    style: ViewStyle,
     text: string,
+    textStyle: TextStyle,
     gradientBegin: string,
     gradientEnd: string,
     gradientDirection: string,
@@ -22,5 +24,4 @@ export interface Props {
     blueViolet: boolean,
     blueMarine: boolean,
     deepBlue: boolean,
-    style: ViewStyle,
 }

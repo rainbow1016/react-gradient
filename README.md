@@ -23,9 +23,15 @@ import GradientButton from 'react-native-gradient-buttons';
 ```
 
 ## Props
+  - `style`: `ViewStyle`
+    - No default
+    - options: any styles you want to apply to the button   
   - `text`: `String`
     - No default
     - options: any string
+  - `style`: `TextSyle`
+    - No default
+    - options: any styles you want to apply to the text   
   - `gradientBegin`: `String` 
     - default: `'#00d2ff'`
     - options: Any hex, rgb, or color    
@@ -52,10 +58,7 @@ import GradientButton from 'react-native-gradient-buttons';
     - options: `'Heavy'`, `'Medium'`, `'Light'`
   - `onPressAction`: `Function`
     - No default
-    - options: any function you want to pass to the Gradient Button
-  - `style`: `ViewStyle`
-    - No default
-    - options: any styles you want to apply to the button    
+    - options: any function you want to pass to the Gradient Button 
 
   **Design+Code Specifc Gradient Props**
   - purpleViolet
@@ -72,6 +75,7 @@ import GradientButton from 'react-native-gradient-buttons';
     <GradientButton
       style={{marginVertical: 8}}
       text="Gradient Button"
+      textSyle={{ fontSize: 20 }}      
       gradientBegin="#874f00"
       gradientEnd="#f5ba57"
       gradientDirection="diagonal"
