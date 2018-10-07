@@ -70,7 +70,7 @@ import GradientButton from 'react-native-gradient-buttons';
 ```
   <View style={{flex: 1, justifyContent: 'space-evenly', alignItems: 'center', marginVertical: 24}}>
     <GradientButton
-      style={{}}
+      style={{marginVertical: 8}}
       text="Gradient Button"
       gradientBegin="#874f00"
       gradientEnd="#f5ba57"
