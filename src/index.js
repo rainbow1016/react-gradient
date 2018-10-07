@@ -22,6 +22,8 @@ const styles = StyleSheet.create({
 class GradientButton extends React.PureComponent { 
   render() {
     const {
+      children,
+      style,
       text,
       textStyle,
       gradientBegin,
@@ -39,7 +41,6 @@ class GradientButton extends React.PureComponent {
       blueViolet,
       blueMarine,
       deepBlue,
-      style,
     } = this.props;
 
     const purpleVioletColor = ['#7B42F6', '#B01EFF'];
@@ -97,7 +98,7 @@ class GradientButton extends React.PureComponent {
             horizontalGradient.end            
           }
         >
-          <Text style={[styles.text, textStyle]}>{text}</Text>
+          <Text style={[styles.text, textStyle]}>{text ? text : children}</Text>
         </LinearGradient>
       </TouchableOpacity> 
     );

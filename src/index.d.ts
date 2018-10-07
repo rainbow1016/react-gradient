@@ -6,6 +6,7 @@ import { TextStyle, ViewStyle } from 'react-native';
 
 /*~ You can declare types that are available via importing the module */
 export interface Props {
+    children: JSX.Element[] | JSX.Element,
     style: ViewStyle,
     text: string,
     textStyle: TextStyle,

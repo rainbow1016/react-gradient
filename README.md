@@ -87,6 +87,22 @@ import GradientButton from 'react-native-gradient-buttons';
       onPressAction={() => alert('You pressed me!')}
     />
 
+    <GradientButton
+      style={{marginVertical: 8}}
+      textSyle={{ fontSize: 20 }}      
+      gradientBegin="#874f00"
+      gradientEnd="#f5ba57"
+      gradientDirection="diagonal"
+      height={60}
+      width={300}
+      radius={15}
+      impact
+      impactStyle='Light'
+      onPressAction={() => alert('You pressed me!')}
+    />
+      Gradient Button #2   
+    </GradientButton>
+    
     <GradientButton text="Purple Violet" width='90%' purpleViolet impact />
     <GradientButton text="Violet Pink" width='90%' violetPink impact />
     <GradientButton text="Pink Dark Green" width='90%' pinkDarkGreen impact />
