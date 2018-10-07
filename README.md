@@ -29,7 +29,7 @@ import GradientButton from 'react-native-gradient-buttons';
   - `text`: `String`
     - No default
     - options: any string
-  - `style`: `TextSyle`
+  - `textStyle`: `TextSyle`
     - No default
     - options: any styles you want to apply to the text   
   - `gradientBegin`: `String` 
