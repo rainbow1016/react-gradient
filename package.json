@@ -20,6 +20,9 @@
   "typings": "./src/index",
   "author": "Thomas Wang <iothomaswang@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },  
   "peerDependencies": {
     "expo": ">= 27.x",
     "react": ">= 16.x",
@@ -32,7 +35,7 @@
     "babel-preset-react-native": "^4.0.1",
     "typescript": "^3.1.1"
   },
-  "scripts": {
-    "build": "tsc"
+  "dependencies": {
+    "react-native": "^0.57.2"
   }
 }

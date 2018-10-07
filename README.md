@@ -53,6 +53,9 @@ import GradientButton from 'react-native-gradient-buttons';
   - `onPressAction`: `Function`
     - No default
     - options: any function you want to pass to the Gradient Button
+  - `style`: `ViewStyle`
+    - No default
+    - options: any styles you want to apply to the button    
 
   **Design+Code Specifc Gradient Props**
   - purpleViolet
@@ -67,6 +70,7 @@ import GradientButton from 'react-native-gradient-buttons';
 ```
   <View style={{flex: 1, justifyContent: 'space-evenly', alignItems: 'center', marginVertical: 24}}>
     <GradientButton
+      style={{}}
       text="Gradient Button"
       gradientBegin="#874f00"
       gradientEnd="#f5ba57"
