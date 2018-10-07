@@ -112,5 +112,4 @@ import GradientButton from 'react-native-gradient-buttons';
   </View>
 ```
 
-For this component in action, see my example project: [React Native Auth Screens](https://github.com/thomaswangio/auth-screens).
-]
+*For a more detailed example, see my example project*: [React Native Auth Screens](https://github.com/thomaswangio/auth-screens).
