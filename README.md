@@ -106,7 +106,7 @@ import GradientButton from 'react-native-gradient-buttons';
       impact
       impactStyle='Light'
       onPressAction={() => alert('You pressed me!')}
-    />
+    >
       Gradient Button #2   
     </GradientButton>
     
