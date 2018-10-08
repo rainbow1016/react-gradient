@@ -1,6 +1,6 @@
 # React Native Gradient Buttons
 
-[![Version](https://img.shields.io/badge/version-v.1.2.4-red.svg)](https://www.npmjs.com/package/react-native-gradient-buttons)
+[![Version](https://img.shields.io/badge/version-v1.2.5-red.svg](https://www.npmjs.com/package/react-native-gradient-buttons)
 [![Platform](https://img.shields.io/badge/platform-ios%2Fandroid-blue.svg)](https://facebook.github.io/react-native/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/thomaswangio/react-native-gradient-buttons/blob/master/LICENSE)
 
