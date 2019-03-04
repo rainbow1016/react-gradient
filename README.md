@@ -79,7 +79,7 @@ import GradientButton from 'react-native-gradient-buttons';
     <GradientButton
       style={{ marginVertical: 8 }}
       text="Gradient Button #1"
-      textSyle={{ fontSize: 20 }}      
+      textStyle={{ fontSize: 20 }}      
       gradientBegin="#874f00"
       gradientEnd="#f5ba57"
       gradientDirection="diagonal"
@@ -93,7 +93,7 @@ import GradientButton from 'react-native-gradient-buttons';
 
     <GradientButton
       style={{ marginVertical: 8 }}
-      textSyle={{ fontSize: 20 }}      
+      textStyle={{ fontSize: 20 }}      
       gradientBegin="#874f00"
       gradientEnd="#f5ba57"
       gradientDirection="diagonal"
