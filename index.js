@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   },
 });
 
-class GradientButton extends React.PureComponent { 
+class GradientButton extends React.PureComponent {
   render() {
     const {
       text,
@@ -54,12 +54,12 @@ class GradientButton extends React.PureComponent {
 
     const verticalGradient = {
       start: { x: 0, y: 0 },
-      end: { x: 0, y: 1 }      
-    }    
+      end: { x: 0, y: 1 }
+    }
 
     const diagonalGradient = {
       start: { x: 0, y: 0 },
-      end: { x: 1, y: 1 }      
+      end: { x: 1, y: 1 }
     }
 
     return (
@@ -67,7 +67,7 @@ class GradientButton extends React.PureComponent {
         style={[styles.button, {height, width}]}
         onPress={() => {
           if (Platform.OS === 'ios' && impact === true) {
-            Haptic.impact(Haptic.ImpactStyles[impactStyle]);
+            Haptic.impact(Haptic.ImpactFeedbackStyle[impactStyle]);
           }
           if (onPressAction) {
             return onPressAction();
@@ -85,14 +85,14 @@ class GradientButton extends React.PureComponent {
             deepBlue ? deepBlueColor : [gradientBegin, gradientEnd]
           }
           start={
-            gradientDirection === 'vertical' ? verticalGradient.start : 
-            gradientDirection === 'diagonal' ? diagonalGradient.start : 
+            gradientDirection === 'vertical' ? verticalGradient.start :
+            gradientDirection === 'diagonal' ? diagonalGradient.start :
             horizontalGradient.start
           }
           end={
-            gradientDirection === 'vertical' ? verticalGradient.end : 
-            gradientDirection === 'diagonal' ? diagonalGradient.end : 
-            horizontalGradient.end            
+            gradientDirection === 'vertical' ? verticalGradient.end :
+            gradientDirection === 'diagonal' ? diagonalGradient.end :
+            horizontalGradient.end
           }
         >
           <Text style={styles.text}>{text}</Text>
