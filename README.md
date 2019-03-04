@@ -1,6 +1,6 @@
 # React Native Gradient Buttons [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Gradient%20buttons%20in%20%40reactnative%20by%20%40thomaswangio%20with%201%20line%20of%20code%21%20Instructions%20here%3A%20https%3A%2F%2Fgithub.com%2Fthomaswangio%2Freact-native-gradient-buttons)
 
-[![Version](https://img.shields.io/badge/version-v1.2.9-red.svg)](https://www.npmjs.com/package/react-native-gradient-buttons)
+[![Version](https://img.shields.io/badge/version-v1.3.0-red.svg)](https://www.npmjs.com/package/react-native-gradient-buttons)
 [![Platform](https://img.shields.io/badge/platform-ios%2Fandroid-blue.svg)](https://facebook.github.io/react-native/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/thomaswangio/react-native-gradient-buttons/blob/master/LICENSE)
 
@@ -9,7 +9,8 @@ A lightweight, customizable and haptic Gradient Button library for React Native.
 <img src="./Examples.png" alt="Examples" width="250">
 
 ## Requirements
-Requires React, React Native, and Expo.
+
+Requires React and React Native.
 
 ## Installation
 
@@ -27,50 +28,52 @@ import GradientButton from 'react-native-gradient-buttons';
 ```
 
 ## Props
-  - `style`: `ViewStyle`
-    - No default
-    - options: any styles you want to apply to the button   
-  - `text`: `String`
-    - No default
-    - options: any string
-  - `textStyle`: `TextSyle`
-    - No default
-    - options: any styles you want to apply to the text   
-  - `gradientBegin`: `String` 
-    - default: `'#00d2ff'`
-    - options: Any hex, rgb, or color    
-  - `gradientEnd`: `String`
-    - default: `'#3a47d5'`
-    - options: Any hex, rgb, or color
-  - `gradientDirection`: `String`
-    - default: `'horizontal'`
-    - options: `'horizontal'`, `'vertical'`, `'diagonal'`
-  - `height`: `Number` or `String` (for %)
-    - default: `75`
-    - options: any number
-  - `width`: `Number` or `String` (for %)
-    - No default
-    - options: any number
-  - `radius`: `Number`
-    - default: `50`
-    - options: any number
-  - `impact`: `Boolean`
-    - default: `false`
-    - options: `true` or `false`
-  - `impactStyle`: `String`
-    - default: `'Heavy'`
-    - options: `'Heavy'`, `'Medium'`, `'Light'`
-  - `onPressAction`: `Function`
-    - No default
-    - options: any function you want to pass to the Gradient Button 
 
-  **Design+Code Specifc Gradient Props**
-  - purpleViolet
-  - violetPink
-  - pinkDarkGreen
-  - blueViolet
-  - blueMarine
-  - deepBlue
+- `style`: `ViewStyle`
+  - No default
+  - options: any styles you want to apply to the button
+- `text`: `String`
+  - No default
+  - options: any string
+- `textStyle`: `TextSyle`
+  - No default
+  - options: any styles you want to apply to the text
+- `gradientBegin`: `String`
+  - default: `'#00d2ff'`
+  - options: Any hex, rgb, or color
+- `gradientEnd`: `String`
+  - default: `'#3a47d5'`
+  - options: Any hex, rgb, or color
+- `gradientDirection`: `String`
+  - default: `'horizontal'`
+  - options: `'horizontal'`, `'vertical'`, `'diagonal'`
+- `height`: `Number` or `String` (for %)
+  - default: `75`
+  - options: any number
+- `width`: `Number` or `String` (for %)
+  - No default
+  - options: any number
+- `radius`: `Number`
+  - default: `50`
+  - options: any number
+- `impact`: `Boolean`
+  - default: `false`
+  - options: `true` or `false`
+- `impactStyle`: `String`
+  - default: `'Heavy'`
+  - options: `'Heavy'`, `'Medium'`, `'Light'`
+- `onPressAction`: `Function`
+  - No default
+  - options: any function you want to pass to the Gradient Button
+
+**Design+Code Specifc Gradient Props**
+
+- purpleViolet
+- violetPink
+- pinkDarkGreen
+- blueViolet
+- blueMarine
+- deepBlue
 
 ## Examples
 
@@ -79,7 +82,7 @@ import GradientButton from 'react-native-gradient-buttons';
     <GradientButton
       style={{ marginVertical: 8 }}
       text="Gradient Button #1"
-      textStyle={{ fontSize: 20 }}      
+      textStyle={{ fontSize: 20 }}
       gradientBegin="#874f00"
       gradientEnd="#f5ba57"
       gradientDirection="diagonal"
@@ -93,7 +96,7 @@ import GradientButton from 'react-native-gradient-buttons';
 
     <GradientButton
       style={{ marginVertical: 8 }}
-      textStyle={{ fontSize: 20 }}      
+      textStyle={{ fontSize: 20 }}
       gradientBegin="#874f00"
       gradientEnd="#f5ba57"
       gradientDirection="diagonal"
@@ -104,9 +107,9 @@ import GradientButton from 'react-native-gradient-buttons';
       impactStyle='Light'
       onPressAction={() => alert('You pressed me!')}
     >
-      Gradient Button #2   
+      Gradient Button #2
     </GradientButton>
-    
+
     <GradientButton text="Purple Violet" width='90%' purpleViolet impact />
     <GradientButton text="Violet Pink" width='90%' violetPink impact />
     <GradientButton text="Pink Dark Green" width='90%' pinkDarkGreen impact />
@@ -116,4 +119,4 @@ import GradientButton from 'react-native-gradient-buttons';
   </View>
 ```
 
-*For a more detailed example, see my example project*: [React Native Auth Screens](https://github.com/thomaswangio/auth-screens).
+_For a more detailed example, see my example project_: [React Native Auth Screens](https://github.com/thomaswangio/auth-screens).
