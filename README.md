@@ -1,6 +1,6 @@
 # React Native Gradient Buttons [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Gradient%20buttons%20in%20%40reactnative%20by%20%40thomaswangio%20with%201%20line%20of%20code%21%20Instructions%20here%3A%20https%3A%2F%2Fgithub.com%2Fthomaswangio%2Freact-native-gradient-buttons)
 
-[![Version](https://img.shields.io/badge/version-v1.3.1-red.svg)](https://www.npmjs.com/package/react-native-gradient-buttons)
+[![Version](https://img.shields.io/badge/version-v1.3.2-red.svg)](https://www.npmjs.com/package/react-native-gradient-buttons)
 [![Platform](https://img.shields.io/badge/platform-ios%2Fandroid-blue.svg)](https://facebook.github.io/react-native/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/thomaswangio/react-native-gradient-buttons/blob/master/LICENSE)
 
@@ -36,7 +36,7 @@ import GradientButton from 'react-native-gradient-buttons';
   - No default
   - options: any string
 - `textStyle`: `TextSyle`
-  - No default
+  - {}
   - options: any styles you want to apply to the text
 - `gradientBegin`: `String`
   - default: `'#00d2ff'`
