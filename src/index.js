@@ -22,7 +22,10 @@ const styles = StyleSheet.create({
 class GradientButton extends React.PureComponent {
   render() {
     const {
+      children,
+      style,
       text,
+      textStyle,
       gradientBegin,
       gradientEnd,
       gradientDirection,
@@ -31,14 +34,13 @@ class GradientButton extends React.PureComponent {
       radius,
       impact,
       impactStyle,
+      onPressAction,
       purpleViolet,
       violetPink,
       pinkDarkGreen,
       blueViolet,
       blueMarine,
-      deepBlue,
-      onPressAction,
-      textStyle,
+      deepBlue
     } = this.props;
 
     const purpleVioletColor = ["#7B42F6", "#B01EFF"];
@@ -65,7 +67,7 @@ class GradientButton extends React.PureComponent {
 
     return (
       <TouchableOpacity
-        style={[styles.button, { height, width }]}
+        style={[styles.button, { height, width }, style]}
         onPress={() => {
           if (Platform.OS === "ios" && impact === true) {
             Haptic.impact(Haptic.ImpactFeedbackStyle[impactStyle]);
@@ -107,7 +109,7 @@ class GradientButton extends React.PureComponent {
               : horizontalGradient.end
           }
         >
-          <Text style={Object.assign({}, styles.text, textStyle)}>{text}</Text>
+          <Text style={[styles.text, textStyle]}>{text ? text : children}</Text>
         </LinearGradient>
       </TouchableOpacity>
     );
