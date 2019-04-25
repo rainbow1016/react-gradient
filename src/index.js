@@ -123,7 +123,8 @@ GradientButton.defaultProps = {
   height: 75,
   radius: 50,
   impact: false,
-  impactStyle: "Heavy"
+  impactStyle: "Heavy",
+  textStyle: {}
 };
 
 export default GradientButton;
