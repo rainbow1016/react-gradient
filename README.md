@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/badge/platform-ios%2Fandroid-blue.svg)](https://facebook.github.io/react-native/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/thomaswangio/react-native-gradient-buttons/blob/master/LICENSE)
 
-A lightweight, customizable and haptic Gradient Button library for React Native.
+Lightweight, customizable and haptic Gradient Buttons for React Native.
 
 <img src="./Examples.png" alt="Examples" width="250">
 
@@ -36,7 +36,7 @@ import GradientButton from 'react-native-gradient-buttons';
   - No default
   - options: any string
 - `textStyle`: `TextSyle`
-  - {}
+  - default: `{}`
   - options: any styles you want to apply to the text
 - `gradientBegin`: `String`
   - default: `'#00d2ff'`
