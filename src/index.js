@@ -28,6 +28,8 @@ class GradientButton extends React.PureComponent {
       textStyle,
       gradientBegin,
       gradientEnd,
+      disabledGradientBegin,
+      disabledGradientEnd,
       gradientDirection,
       height,
       width,
@@ -40,7 +42,8 @@ class GradientButton extends React.PureComponent {
       pinkDarkGreen,
       blueViolet,
       blueMarine,
-      deepBlue
+      deepBlue,
+      disabled,
     } = this.props;
 
     const purpleVioletColor = ["#7B42F6", "#B01EFF"];
@@ -49,6 +52,7 @@ class GradientButton extends React.PureComponent {
     const blueVioletColor = ["#3672F8", "#B01EFF"];
     const blueMarineColor = ["#14F1D9", "#3672F8"];
     const deepBlueColor = ["#4F73C3", "#3C46A2"];
+    const disabledColor = [disabledGradientBegin || "#D3D3D3", disabledGradientEnd || "#696969"];
 
     const horizontalGradient = {
       start: { x: 0, y: 0.5 },
@@ -68,7 +72,7 @@ class GradientButton extends React.PureComponent {
     return (
       <TouchableOpacity
         style={[styles.button, { height, width }, style]}
-        onPress={() => {
+        onPress={disabled ? null : () => {
           if (Platform.OS === "ios" && impact === true) {
             Haptic.impact(Haptic.ImpactFeedbackStyle[impactStyle]);
           }
@@ -80,7 +84,9 @@ class GradientButton extends React.PureComponent {
         <LinearGradient
           style={[styles.gradient, { borderRadius: radius }]}
           colors={
-            purpleViolet
+            disabled
+              ? disabledColor
+              : purpleViolet
               ? purpleVioletColor
               : violetPink
               ? violetPinkColor
@@ -124,7 +130,10 @@ GradientButton.defaultProps = {
   radius: 50,
   impact: false,
   impactStyle: "Heavy",
-  textStyle: {}
+  textStyle: {},
+  disabled: false,
+  disabledGradientBegin: "#D3D3D3",
+  disabledGradientEnd: "#696969",
 };
 
 export default GradientButton;
