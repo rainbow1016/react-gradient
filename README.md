@@ -65,8 +65,16 @@ import GradientButton from 'react-native-gradient-buttons';
 - `onPressAction`: `Function`
   - No default
   - options: any function you want to pass to the Gradient Button
+- `disabled`: `Boolean`
+  - default: false
+- `disabledGradientBegin`: `String`
+  - default: `'#D3D3D3'`
+  - options: Any hex, rgb, or color
+- `disabledGradientEnd`: `String`
+  - default: `'#696969'`
+  - options: Any hex, rgb, or color
 
-**Design+Code Specifc Gradient Props**
+**Design+Code Specific Gradient Props**
 
 - purpleViolet
 - violetPink
@@ -116,6 +124,7 @@ import GradientButton from 'react-native-gradient-buttons';
     <GradientButton text="Blue Violet" width='90%' blueViolet impact />
     <GradientButton text="Blue Marine" width='90%' blueMarine impact />
     <GradientButton text="Deep Blue" width='90%' deepBlue impact />
+    <GradientButton text="Disabled" width='90%' disabled impact />
   </View>
 ```
 
