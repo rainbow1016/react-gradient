@@ -14,20 +14,22 @@
     "url": "https://github.com/thomaswangio/react-native-gradient-buttons",
     "type": "git"
   },
-  "version": "1.3.5",
+  "version": "2.0.0",
   "description": "React Native gradient buttons for your next project",
   "main": "./src/index",
   "typings": "./src/index",
-  "author": "Thomas Wang <iothomaswang@gmail.com>",
+  "author": "Thomas Wang <thomas@wang.sh>",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
   },
-  "peerDependencies": {
-    "react": ">= 16.x",
-    "react-native": ">= 0.55.x",
+  "dependencies": {
     "expo-haptics": "^6.0.0",
     "expo-linear-gradient": "^6.0.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.x",
+    "react-native": ">= 0.55.x"
   },
   "devDependencies": {
     "@types/expo": "^27.0.12",

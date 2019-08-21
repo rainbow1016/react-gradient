@@ -10,7 +10,7 @@ Lightweight, customizable and haptic Gradient Buttons for React Native.
 
 ## Requirements
 
-Requires React and React Native, and Expo ([awaiting PR to remove dependency](https://github.com/thomaswangio/react-native-gradient-buttons/issues/13)).
+Requires React and React Native.
 
 ## Installation
 
