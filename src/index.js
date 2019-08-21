@@ -128,7 +128,7 @@ GradientButton.defaultProps = {
   gradientEnd: "#3a47d5",
   gradientDirection: "horizontal",
   height: 75,
-  radius: 50,
+  radius: 25,
   impact: false,
   impactStyle: "Heavy",
   textStyle: {},
