@@ -12,6 +12,8 @@ Lightweight, customizable and haptic Gradient Buttons for React Native.
 
 Requires React and React Native.
 
+For pure React Native projects you must install [react-native-unimodules](https://github.com/unimodules/react-native-unimodules) as part of [Expo's bare workflow](https://docs.expo.io/versions/latest/introduction/managed-vs-bare/#bare-workflow).
+
 ## Installation
 
 ```
