@@ -8,13 +8,13 @@
     "gradient-button",
     "gradient-buttons"
   ],
-  "homepage": "https://github.com/thomaswangio/react-native-gradient-buttons",
-  "bugs": "https://github.com/thomaswangio/react-native-gradient-buttons/issues",
+  "homepage": "https://github.com/thomaswang/react-native-gradient-buttons",
+  "bugs": "https://github.com/thomaswang/react-native-gradient-buttons/issues",
   "repository": {
-    "url": "https://github.com/thomaswangio/react-native-gradient-buttons",
+    "url": "https://github.com/thomaswang/react-native-gradient-buttons",
     "type": "git"
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "React Native gradient buttons for your next project",
   "main": "./src/index",
   "typings": "./src/index",
@@ -24,8 +24,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "expo-haptics": "^6.0.0",
-    "expo-linear-gradient": "^6.0.0"
+    "expo-haptics": "^9.0.0",
+    "expo-linear-gradient": "^9.0.0"
   },
   "peerDependencies": {
     "react": ">= 16.x",
